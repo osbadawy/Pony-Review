@@ -1,0 +1,99 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    padding: 75px 45px;
+}
+
+.button {
+	--offset: 10px;
+	--border-size: 2px;
+    justify-content: center;
+	padding: 1.5em 3em;
+    margin-top: 1em;
+	appearance: none;
+	border: 0;
+	background: transparent;
+	color: #e55743;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+	cursor:pointer;
+	font-weight: bold;
+	border-radius: 0;
+	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+	transition: .8s ease;	
+}
+
+
+.button:hover{
+    transform: scale(1.2);
+    color: rgb(255, 34, 0);
+}
+
+.container{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: rosybrown;
+}
+
+
+.text{
+    padding: 20px;
+    border-top: wheat solid 3px;
+}
+
+#left-button{
+    margin-right: 20px;
+}
+
+#right-button{
+    margin-left: 20px;
+}
+
+#textId{
+    margin: 20px;
+    padding: 50px;
+    background: transparent;
+    color: #963c30;
+    border-radius: 10px;
+    letter-spacing: .25em;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+}
+
+#email{
+    margin: 20px;
+    padding: 15px;
+    background: transparent;
+    color: #963c30;
+    border-radius: 10px;
+    letter-spacing: .25em;
+    font-weight: bold;
+}
+
+.submition{
+    margin: 20px;
+    padding:5px 15px;  
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
